@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:end;
+    margin-right: 40px;
+    background-color: transparent;
+    position: fixed;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: red;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-weight: 900;
+    font-size: 22px;
+}
+a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+}    
+.left{
+    padding-top: 200px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.left h1{
+    width: 30%;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 2px;
+    padding-left:30%;
+}
+.zee{
+    font-size: 30px;
+    color: red;
+    width: 25%;
+    top: 60%;
+    position: absolute;
+    left: 38%;
+    border-bottom: 2px solid red; 
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    30%{
+        width: 50px;
+        height: 0px;
+    }
+    60%{
+        width: 50px;
+        height: 80px;
+    }
+}
+#about{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-left: 50px;
+    /* justify-content: center;
+    text-align: center; */
+}
+.container{
+    display: flex;
+    
+}
+.index{
+    width: 50%;
+
+}
+#about p{
+    width: 45%;
+    padding-left: 0%;
+    font-size: 25px;
+    font-weight: 10;
+    line-height: 30px;
+}
+#about img{
+    padding-top: 30px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 70px;
+    padding-left: 20%;
+
+}
+#contact h1{
+    padding-left: 10%;
+}
+#contact img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+#contact p{
+    color: black;
+    padding-top: 20px;
+}
+.location{
+    display: flex;
+    margin-top: 30px
+}
+form{
+    margin-top: 1%;
+}
+.main input{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+.message input{
+    width: 300px;
+    height: 90px;
+    margin: 10px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 3px;
+}
+.submit input{
+    width: 200px;
+    height: 40px;
+    background-color: navy;
+    color: white;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: none;
+}
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+#footer h1{
+    width: 50px;
+    padding-left: 35%;
+    font-size: 80px;
+    text-align: center;
+    line-height: 80px;
+    letter-spacing: 10px;
+}
+#footer p{
+    width: 40%;
+    font-size: 30px;
+    padding-left: 27%;
+    text-align: center;
+}
